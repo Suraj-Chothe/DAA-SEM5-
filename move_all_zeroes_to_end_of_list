@@ -4,7 +4,10 @@ Statement: Given an array of random numbers, Push all the zero’s of a given ar
 Input : arr[] = {1, 2, 0, 4, 3, 0, 5, 0};
 Output : arr[] = {1, 2, 4, 3, 5, 0, 0, 0};'''
 '''general description:- In the code we divide the list into two sublist and then after separating the 0 and non-zero number we again the concatenate that list and display that list'''
+
+
 lst=[1,2,0,4,3,0,5,0]
+
 def move_zero(lst):
     lst2=[]
     lst_copy=[]
@@ -14,7 +17,9 @@ def move_zero(lst):
         else:
             lst2.append(lst[i])
     return lst2+ lst_copy
+
 x=move_zero(lst)
+
 print(x)
 
 #o.p:-[1, 2, 4, 3, 5, 0, 0, 0]
