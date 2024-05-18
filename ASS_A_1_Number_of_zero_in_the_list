@@ -12,6 +12,8 @@ print(x)
 #output:-2
 #time complexity is o[n]
 
+
+
 # We are taking the input fro the user user input
 '''
 def count_zero(lst):
